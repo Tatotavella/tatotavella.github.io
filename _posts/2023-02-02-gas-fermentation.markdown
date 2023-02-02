@@ -8,7 +8,7 @@ In this post I'll review my recent reading of two very interesting articles:
 - Cell-free prototyping enables implementation of optimized reverse beta-oxidation pathways in heterotrophic and autotrophic bactera by Vogeli et al. [Link][vogeli-2022]
 - Stepping on the gas to a circular economy: Accelerating development of caron-negative chemical production from gas fermentation by Fackler et al. [Link][fackler-2021]
 
-# Cell-free prototyping
+## Cell-free prototyping
 The authors in this article present the development of an engineering pipeline that allows to test biochemical pathways *in vitro* for the selective production of several chemicals. After testing the pathways are implemented *in vivo* and validated. 
 
 The article focuses on the reverse beta-oxidation pathway (r-BOX). This is a circular metabolic pathway that has the potential to produce hundreds of different molecules. In contrast, linear pathways limit the co-development of multiple biochemical products. One of the goals of the engineering procedure is to increase the selectivity of r-BOX to focus on certain chemicals. The authors achieve this by using [iPROBE][iprobe], a cell-free pipeline for testing combination of enzymes. In a nutshell, iPROBE entails expressing proteins in a TX-TL reaction, providing substrates, and then quantifying the desired output. 
@@ -17,18 +17,18 @@ Reactions are scaled down to 4 uL and carried out in 96-well plates which allows
 
 The best enzyme combination is selected for scale-up and shows a good correlation with what was observed *in vitro*. Importantly, the enzyme combination works in *E. coli* and *C. autoethanogenum* speaking to the versatility of this approach. 
 
-## Outstanding questions
+# Outstanding questions
 - How easily can this process be scaled up to test more enzyme combinations?
 - Can the data be used in an AI/ML framework to predict the behavior of untested enzyme combinations?
 - Can the process be adapted to microfluidics to test more combinations?
 
-## Further reading
+# Further reading
 - [Pollution to products: Recycling of 'above ground' carbon by gas fermentation][kopke-2021]
 - [In vitro prototyping and rapid optimization of biosynthetic enzymes for cell design][iprobe]
 - [Modular cell-free expression plasmids to accelerate biological design in cells][karim-2020]
 
 
-# Gas fermentation Review
+## Gas fermentation Review
 The second article is a very extensive review about the current state of gas fermentation. Gas fermentation is a very valuable tool in the fight against climate change. Despite the conversion that is happening in many industries from fossil fuel to renewables, there are many sectors that will remain heavily dependent on fossil resources for the foreseeable future, such as aviation fuel and chemical production. Therefore, there is a need for innovation in those sectors and gas fermentation provides a solution.
 
 Typical fermentation depends heavily on agricultural feedstocks which have two main disadvantages. First, they are a source of food, so fermentation is effectively competing for this resource. Second, its availability fluctuates considerably, rendering its price and composition difficult to predict. Gas fermentation uses industrial off gases or syngas as the feedstock and does not suffer from the same problems that agricultural feedstocks have.
@@ -44,7 +44,7 @@ In terms of the tools available to engineer acetogens (being *Clostridium autoet
 Recently, a cell-free platform was established for *C. autoethanogenum* that can produce up to 320 ug of protein per ml in semi-continuous tx-tl reactions. This allows to screen genetic parts on the native environment of *C. atuoethanogenum*. I really enjoyed the following passage from the paper:
 > Together, cell-free systems from *E. coli* and nonmodel organisms will expedite engineering efforts in gas-fermenting microbes by increasing the throughput of genetic part characterization and accelerating development cycles for metabolic pathway optimization to more efficiently produce industrial strains that convert waste gas to chemical products
 
-## Further reading
+# Further reading
 - [Redox controls metabolic robustness in the gas-fermenting acetogen *Clostridium autoethanogenum*][mahamkali-2020]
 - [Syngas fermentation to alcohols: reactor technology and application perspective][stoll-2020]
 - [A strongly fluorescing anaerobic reporter and protein-tagging system for *Clostridium* organisms][streett-2019]
