@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Removing repetitive patterns in microscopy data using a Fourier filtering technique"
-date:   2023-02-02 12:00:00 -0500
+date:   2023-02-09 12:00:00 -0500
 categories: jekyll update
 ---
 One of my labmates works with cells on microposts. These microposts generate a repetitive background pattern in his microscopy images which complicates cell segmentation and tracking. I developed a simple pipeline to remove as much background as possible from his images. This post goes over how to do that.
