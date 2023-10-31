@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating an interactive cell cycle simulation using ObservableHQ"
-date:   2023-10-31 14:11:00 -0500
+date:   2023-10-31 09:11:00 -0500
 categories: jekyll update
 ---
 In the [Yang lab](https://www-personal.umich.edu/~qiongy/) we usually work with with ordinary differential equation models. These models help us guide our intuition. However, it's not straightforward to run a simulation every time we have a question about
