@@ -18,13 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Synbio explorations
+title: Notes
 email: tavellafran@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-        Hi, I'm Franco Tavella. Welcome to my website where I record my explorations into the 
-        convergence of data, biology, and programming. I'm excited about the potential 
-        of these technologies to transform our society in the near future. In addition, I'm a 
-        huge fan of sci-fi and all things music. Enjoy your stay.
+        Hi, I'm Franco Tavella. Welcome to my notes. Here I record my explorations into the 
+        topics that interest me such as data, biology, music, art, and programming. Enjoy your stay.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
